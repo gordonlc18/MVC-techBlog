@@ -1,4 +1,4 @@
-# techTalk-MVC ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+# MVC-techBlog ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 _by Latravia Gordon_</br>
 
@@ -16,7 +16,7 @@ _by Latravia Gordon_</br>
   <!-- - [Walkthrough](#walkthrough) -->
   <!-- - [Screenshot](#screenshot) -->
 - [Credits](#credits)
-- [Tests](#tests)
+<!-- - [Tests](#tests) -->
 - [Questions](#questions)
 - [License](#license)
 
@@ -68,11 +68,15 @@ _by Latravia Gordon_</br>
 
 ## Installation
 
+The user should clone the repository from GitHub. This application requires the dependencies
+`Node.js`, `Express.js`, `Sequelize`, `mysql2`, and `connection-session/express-session`. </br>
+Run `npm i -y` to initiate. To connect to the database run `mysql -u root -p` and enter password from `.env file`. Then source the `schema.sql`. To connect to the server run `npm start`.
+
 # Usage
 
 The live link to this application can be found on [Heroku](https://git.heroku.com/arcane-harbor-76788.git).
 
-![MVC Tech Blog]()
+![MVC Tech Blog](./assets/images/techBlog.jpeg)
 
 ## Credits
 
@@ -100,7 +104,7 @@ This application relies on the following npm packages:
 ![UpdateCategory](/Develop/./assets/images/updateCat.jpeg)
 ![UpdateTag](/Develop/./assets/images/updateTag.jpeg) -->
 
-## Tests
+<!-- ## Tests -->
 
 <!-- - There are no test for this application. -->
 
